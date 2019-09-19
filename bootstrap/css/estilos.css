@@ -1,0 +1,22 @@
+.foto{
+	width: 60%;
+	margin: 0 auto;
+}
+.table-dark{
+	background:#EB3838;
+}
+
+.bg-light{
+	color: black;
+}
+
+#carouselExampleControls img{
+ 	: 200px;
+
+}
+
+.row [class^="col"]{
+	background: rgba(105,132,250,0.5);
+	border:0.1em solid #51EEF0;
+	padding: 0.5em;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<meta charset="UTF-8">
+	<title>DIAGRAMACIÓN</title>
+</head>
+<body>
+
+	<div class="display-1">grid bootstrap</div>
+
+	<div class="container">
+		<div class="lead">al usar col , son anchos iguales</div>
+		<div class="row">
+			<div class="col">celdas1</div>
+			<div class="col">celdas2</div>
+		</div>
+		<div class="row">
+			<div class="col">celdas1</div>
+			<div class="col">celdas2</div>
+			<div class="col">celdas3</div>
+		</div>
+	</div>
+	<hr>
+ 	<div class="container">
+ 		<div class="lead">w-100 aplica el 100% y empuja</div>
+ 		<div class="row">
+ 			<div class="col">celda</div>
+ 			<div class="col">celda</div>
+ 			<div class="w-100"></div>
+ 			<div class="col">celda</div>
+ 			<div class="col">celda</div>
+ 		</div>
+ 	</div>
+	<hr>
+	<div class="container">
+		<div class="lead">defino cantidad de celdas que ocupa</div>
+		<div class="row">
+			<div class="col">Column1</div>
+			<div class="col-6">Column2</div>
+			<div class="col">Column3</div>
+		</div>
+		<div class="row">
+			<div class="col">Column1</div>
+			<div class="col-5">Column2</div>
+			<div class="col">Column3</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="lead">especifico el espacio que ocupan</div>
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-2">celda1</div>
+			<div class="col-md-auto">celda2</div>
+			<div class="col col-lg-2">celda3</div>
+		</div>
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col-md-auto">celda2</div>
+			<div class="col col-lg-2">celda3</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="lead">defino la cantidad de celdas qie ocupan cada uno</div>
+		<div class="row">
+			<div class="col">Espacio1</div>
+			<div class="col">Espacio2</div>
+			<div class="col">Espacio3</div>
+			<div class="col">Espacio4</div>
+		</div>
+		<div class="row">
+			<div class="col-8">Espacio1</div>
+			<div class="col-4">Espacio2</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="lead">especifico como va actuar al cambiar de tamaño de pantalla</div>
+		<div class="row">
+			<div class="col-sm-8">col-sm</div>
+			<div class="col-sm-4">col-sm</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">col-sm</div>
+			<div class="col-sm">col-sm</div>
+			<div class="col-sm">col-sm</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+	    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+	  </div>
+
+	  <div class="row">
+	    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+	    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+	    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+	  </div>
+
+	  <div class="row">
+	    <div class="col-6">.col-6</div>
+	    <div class="col-6">.col-6</div>
+	  </div>
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
